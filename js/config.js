@@ -64,11 +64,13 @@ var fantasy              = fantasy || {},
     MAX_HOMA             = '8973',
     CARLOS_ORTIZ         = '5532';
 
-
 fantasy.config = {
-    tournamentName = 'Masters -- 2021',
-    tournamentId: 401243010,
-    teams: [
+    tournamentName  : 'Masters -- 2021',
+    tournamentId    : 401243010,
+    firstPlaceValue : 50,
+    showCut         : false,
+    apiKey          : '_____',
+    teams           : [
         {
             name: 'Jack',
             golfers: [
@@ -229,8 +231,5 @@ fantasy.config = {
                 CARLOS_ORTIZ
             ]
         }
-    ],
-    firstPlaceValue: 50,
-    showCut: false,
-    apiKey: '_____'
+    ]
 };
